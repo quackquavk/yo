@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Link Opener</title>
+  <style>
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <button id="openButton">Open YouTube Link</button>
+
+  <script>
+    document.getElementById("openButton").addEventListener("click", function() {
+      // Replace the link below with your desired YouTube link
+      var youtubeLink = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID";
+
+      // Open the link in a new tab/window
+      window.open(youtubeLink, "_blank");
+    });
+  </script>
+</body>
+</html>
